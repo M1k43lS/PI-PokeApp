@@ -1,0 +1,65 @@
+.container{
+    grid-area: nb;
+    z-index: 11;
+    width: 230px;
+    height: 200px;
+    position: absolute;
+    left: -105px;
+    top: 15px;
+}
+
+.creator{
+    display: block;
+    position: relative;
+    bottom: 1270px;
+    left: -175px;
+    width: 800px;
+    height: 600px;
+    background-color: #000000cb;
+    backdrop-filter: blur(10px);
+    border-color: rgb(156, 9, 9);
+    border-style: groove;
+}
+
+.background{
+    z-index: 12;
+    width: 250px;
+    height: 250px;
+    background-image: url('./images/btrans.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 520px;
+    left: 360px;
+
+
+}
+.god{
+    z-index: 15;
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    background-image: url('./images/ball.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 290px;
+    left: 385px;
+
+}
+.god:hover{
+    z-index: 15;
+    width: 195px;
+    height: 197px;
+    text-align: center;
+    background-image: url('./images/ball_open.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 290px;
+    left: 385px;
+
+}

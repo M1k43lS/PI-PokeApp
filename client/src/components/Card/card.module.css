@@ -1,0 +1,67 @@
+.card{
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas:
+        "img        img  "
+        "content  content"
+        "footer   footer "
+        "   .         .  ";
+    width: 250px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 2px rgba(0,0,0,0.75);
+    transition: ease-in-out 0.3s;
+
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+
+.imagen{
+    grid-area: img;
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    grid-area: content;
+    background-color: rgb(214, 180, 180);
+    width: 100%;
+    height: 150px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.infoName{
+    margin-top: 5px;
+    font-size: 30px;
+    color: rgb(206, 0, 0);
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infoTypes{
+    background-color: rgb(206, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.def{
+    margin-top: 5px;
+    font-size: 30px;
+    color: rgb(206, 0, 0);
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+

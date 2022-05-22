@@ -1,0 +1,54 @@
+.NavFilter{
+    
+        grid-area: nb;
+		justify-content: space-between;
+		align-items: center;
+		display: flex;
+        flex-direction: column;
+        margin-left: -55px;
+		
+}
+
+.ContainerFilter{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    left: -101px;
+    padding: 10px;
+    height: 10px;
+
+}
+
+.Select{
+    z-index: 15;
+    width: 300px;
+    height: 500px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #7e7e7e;
+    background: #1e2125;
+    color: #e2dddd;
+    font-size: 16px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.BtnClear{
+        cursor: pointer;
+		margin-right: 30px;
+		font-size: 18px;
+		letter-spacing: 2px;
+		margin-top: 100px;
+		padding: 10px;
+		border-radius: 5px;
+        margin-bottom: 10px;
+}
+
+.BtnClear:hover{
+    background-color: #c0bbbb5e;
+}

@@ -1,0 +1,58 @@
+.NavFilter{
+    z-index: 0;
+    grid-area: nb;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 330px;
+    
+    
+}
+
+.ContainerFilter{
+z-index: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+margin-left: -10px;
+
+}
+
+.Select{
+    
+    cursor: pointer;
+    text-transform: capitalize;
+    flex-direction: column;
+    display: flex;
+    color: #e2dddd;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 200px;
+    width: 375px;
+    padding: 5px;    
+    background-color: #cc0808;
+    margin-top: 0px;
+    grid-area: nb;
+    height:80px;
+}
+
+.BtnClear{
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 455px;
+    margin-bottom: -270px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.BtnClear:hover{
+background-color: #0000005e;
+color: #e2dddd;
+}

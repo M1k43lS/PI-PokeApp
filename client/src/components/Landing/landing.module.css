@@ -1,0 +1,213 @@
+.background {
+    background-image: url("./background.png");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    }
+
+.imgDoor1{
+    width: 180px;
+    height: 250px;
+    display: flex;
+    background-image: url("./door_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    top: 628px;
+    left: 916px;
+
+}
+.imgDoor1:hover{
+    width: 180px;
+    height: 250px;
+    display: flex;
+    background-image: url("./door_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    top: 628px;
+    left: 916px;
+    animation: rotate-center2 5s ease-in-out infinite reverse both;
+
+}
+
+.imgDoor2{
+    width: 147px;
+    height: 250px;
+    display: flex;
+    background-image: url("./door_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    left: 16.5px;
+    bottom: 0px;
+
+}
+
+.imgDoor2:hover{
+    width: 147px;
+    height: 250px;
+    display: flex;
+    background-image: url("./door_2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    left: 16.5px;
+    bottom: 0px;
+    animation: rotate-center2 2s ease-in-out infinite both;
+}
+
+.goto{
+    display: block;
+    
+}
+
+
+
+.btn {
+    
+    background-color: #0000002c;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.text{
+      
+    color: rgb(255, 251, 11);
+    font-size: 70px;
+    font-family: 'consolas';
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 4px black;
+}
+  
+.contenedor{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'consolas';
+    text-shadow: 4px 4px black;
+    color: rgb(255, 251, 11);
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    background-color: #0000002c;
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+    
+}
+ 
+
+
+.rectangulo {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    
+}
+
+::placeholder {
+    
+    color:  rgb(92, 11, 11);
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+  
+
+  .welcome {
+    position: absolute;
+    top: 30%;
+    left: 33%;
+	animation: bounce-in-top 1.5s ease-in both;
+}
+
+
+
+
+@keyframes bounce-in-top {
+    0% {
+      transform: translateY(-500px);
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      transform: translateY(-65px);
+      animation-timing-function: ease-in;
+    }
+    72% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    81% {
+      transform: translateY(-28px);
+      animation-timing-function: ease-in;
+    }
+    90% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    95% {
+      transform: translateY(-8px);
+      animation-timing-function: ease-in;
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+  }
+  
+
+ 
+
+@keyframes slide-in-bottom {
+    0% {
+      transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes rotate-center2 {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate-center1 {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

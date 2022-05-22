@@ -1,0 +1,25 @@
+
+
+.container{
+
+    grid-area: nb;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    z-index: 0;
+    
+
+}
+
+.crown{
+    z-index: 15;
+    grid-area: nb;
+    width: 79px;
+    height: 79px;
+    display: flex;
+    background-image: url('./images/crown.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    margin-top: 0px;
+}

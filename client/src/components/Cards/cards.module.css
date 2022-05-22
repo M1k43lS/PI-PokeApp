@@ -1,0 +1,12 @@
+
+.cards{
+    z-index: 0;
+    grid-area: cm;
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+}
